@@ -23,7 +23,7 @@ The Python scripts at the top level of the repository generate the results prese
 1) `comm_centric_ook.py` generates the data for figures 5 and 6 - `comm_centric_ook_show.py` creates the subfigures of figures 5 and 6
    -  The script accepts as argument one of two options: `naive` or `high_margin` \
       `python comm_centric_ook.py naive` generates the subfigures that match the Naive Design in figures 5 and 6 \
-      `python comm_centric_ook.py high_argin` generates the subfigures that match the High-Margin Design in figures 5 and 6
+      `python comm_centric_ook.py high_margin` generates the subfigures that match the High-Margin Design in figures 5 and 6
 2) `comm_centric_qam.py` generates the data for figure 7 - `comm_centric_qam_show.py` creates figure 7
 3) `comp_centric_dnn.py` generates the data for figure 10 - `comm_centric_dnn_show.py` creates figure 10
 4) `comp_centric_dnn_layers.py` generates the data for figure 11 - `comm_centric_dnn_layers_compare.py` creates figure 11
