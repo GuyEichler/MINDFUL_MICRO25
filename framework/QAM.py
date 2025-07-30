@@ -4,6 +4,9 @@ import math as mt
 #import sympy as sp
 #x, y, z = symbols('x y z')
 
+#Implementation based on solving the QAM equation from:
+#   https://www.etti.unibw.de/labalive/experiment/qam/
+
 def QAM(n, efficiency, ber, path_loss, margin):
   p, M, N, x = symbols('p M N x')
 
