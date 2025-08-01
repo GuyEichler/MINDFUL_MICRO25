@@ -210,3 +210,5 @@ __marimo__/
 logs/
 data/
 figures/
+socs_intersections.py
+socs_intersections_layers.py
