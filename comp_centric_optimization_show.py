@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
       plt.tight_layout()
 
-      plt.savefig(f"figures/{name}_{dnn_type}_all_opt_scale_power.pdf")
+      #plt.savefig(f"figures/{name}_{dnn_type}_all_opt_scale_power.pdf")
 
       plt.figure(2*ctr+2, figsize=(width, height))
       bar_width = 0.2

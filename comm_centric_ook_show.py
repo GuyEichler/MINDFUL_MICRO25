@@ -123,7 +123,7 @@ if __name__ == "__main__":
     )
 
   plt.tight_layout()
-  plt.savefig(f"figures/{plot_name}_comm_scaling_socs.pdf", transparent=True)
+  plt.savefig(f"figures/{plot_name}_power_scaling_socs.pdf", transparent=True)
 
   plt.figure(2)
   plt.xlabel('Number of NI Channels', fontsize=22*fontscale)

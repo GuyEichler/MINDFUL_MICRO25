@@ -37,9 +37,11 @@ if __name__ == "__main__":
       x_inter, y_inter, ni_channels, sensing_power_consumption, non_sensing_power_consumption, total_power_consumption, total_power_budget = \
         scaling_layers_comp(soc[0], dnn_arch, physical_specs45, soc[1], show=False, maximum_channels=max_ch, step=step)
 
-      print("INTERSECTION ", x_inter, y_inter)
-
       name = soc[0]["Name"]
+
+      np.savetxt(f'data/{plot_name}_comp_layers_data{name}.txt', np.column_stack((total_power_budget, total_power_consumption, ni_channels)))
+
+      print("INTERSECTION ", x_inter, y_inter)
 
       soc[0]["budget_cutoff"][i] = x_inter
 
